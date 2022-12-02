@@ -125,9 +125,7 @@ def pregunta_04():
     #  * Compare modelos usando r^2
     gridsearchcv = GridSearchCV(
         estimator=estimator,
-        param_grid=param_grid,
-        ___ = ____ , 
-        ___ = ____  
+        param_grid=param_grid 
     )
 
     return gridsearchcv
